@@ -1,0 +1,46 @@
+
+body{
+     margin: 0;
+  background-color: rgb(1, 1, 1);
+  font-family: Arial, sans-serif;
+}
+
+.portifolio{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background-color: brown;
+    width: 100%;
+    height: 100%;
+    
+}
+
+h2{
+    color: brown;
+}
+
+.card{
+   text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(252, 252, 252);
+
+    width: 100%;
+    max-width: 980px;
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 20px;
+
+    box-sizing: border-box;
+     min-height: 500px
+
+}
+
+.card p{
+    color: rgb(0, 0, 0);
+}

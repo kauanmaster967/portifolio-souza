@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  background-color: black;
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+  width: 100%;
+  background-color: brown;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  height: 100%;
+  font-size: 40px;
+}
+
+/* CONTAINER DOS CARDS */
+.card {
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: white;
+  width: 100%;
+  max-width: 960px;
+  display: flex;
+  gap: 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 500px;
+}
+
+/* CARDS (menu clicável) */
+.card-item {
+  display: block;
+  width: 180px;
+  padding: 30px;
+  background-color: brown;
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  transition: 0.3s;
+  height: 80px;
+}
+
+/* TEXTO */
+.card-item h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.card-item p {
+  font-size: 14px;
+  margin-top: 10px;
+  color: white;
+  background: none;
+}
+
+/* EFEITO HOVER */
+.card-item:hover {
+  transform: translateY(-10px) scale(1.05);
+  background-color: white;
+  color: black;
+}
+
+/* garante que texto mude junto no hover */
+.card-item:hover p {
+  color: black;
+}
+
+/* TEXTOS GERAIS */
+h1 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 15px;
+}
+
+/* ÁREA EXTRA (se usar) */
+#card_text {
+  margin-top: 30px;
+  width: 100%;
+  height: 400px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
